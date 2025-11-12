@@ -1,8 +1,3 @@
-Got it 💪 — here’s a **clean, professional, and perfectly formatted** version of your `README.md` for the **World Cup Database** project (no broken markdown, no formatting issues):
-
----
-
-````markdown
 # 🏆 World Cup Database
 
 This repository contains my **World Cup Database** project for the **freeCodeCamp Relational Database Certification**.  
@@ -107,7 +102,6 @@ pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
 This project is part of the **freeCodeCamp Relational Database Certification**.
 Completing this project demonstrates proficiency in PostgreSQL, shell scripting, and data modeling.
 
----
 
 **Author:** *Ahlem LOUNAS*
 **Certification:** *freeCodeCamp Relational Database Projects*
