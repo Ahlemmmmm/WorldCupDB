@@ -1,16 +1,13 @@
-Here’s a complete and clean **README.md** file you can paste directly into your repository 👇
-
----
 
 ````markdown
-# 🏆 World Cup Database
+# World Cup Database
 
 This repository contains my **World Cup Database** project for the **freeCodeCamp Relational Database Certification**.  
 It demonstrates how to design, populate, and query a PostgreSQL database using **SQL** and **Bash scripting**.
 
 ---
 
-## 📘 Project Overview
+## Project Overview
 
 The goal of this project is to build a relational database that stores results from the final three rounds of the FIFA World Cup (since 2014).  
 You will:
@@ -20,7 +17,7 @@ You will:
 
 ---
 
-## 🗂️ Files Included
+## Files Included
 
 | File | Description |
 |------|--------------|
@@ -28,11 +25,10 @@ You will:
 | `insert_data.sh` | Bash script to insert teams and games data into the database. |
 | `queries.sh` | Bash script with SQL queries to extract statistics. |
 | `worldcup.sql` | SQL dump file containing the full database (tables, data, constraints). |
-| `expected_output.txt` | Expected result of all queries for validation. |
 
 ---
 
-## 🏗️ Database Design
+## Database Design
 
 ### Tables
 
@@ -55,7 +51,7 @@ You will:
 
 ---
 
-## ⚙️ Setup and Usage
+## Setup and Usage
 
 ### 1. Create the database
 ```bash
@@ -84,7 +80,7 @@ pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
 
 ---
 
-## ✅ Requirements / Tests
+## Requirements / Tests
 
 * The database must contain **24 unique teams**.
 * There must be **32 games** inserted.
@@ -93,7 +89,7 @@ pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 * Database design and normalization
 * PostgreSQL and SQL scripting
@@ -103,20 +99,16 @@ pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
 
 ---
 
-## 🏁 Certification
+## Certification
 
 This project is part of the **freeCodeCamp Relational Database Certification**.
 Completing this project demonstrates proficiency in PostgreSQL, shell scripting, and data modeling.
 
 ---
 
-**Author:** [Your Name]
+**Author:** Ahlem LOUNAS
 **Certification:** freeCodeCamp Relational Database Projects
 **License:** MIT
 
 ```
 
----
-
-Would you like me to adapt it to look like a **polished GitHub README** (with emojis, badges, and centered title section like a portfolio repo)?
-```
